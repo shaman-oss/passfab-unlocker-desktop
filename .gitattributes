@@ -1,0 +1,10 @@
+# Language detection rules 
+# Do not edit manually
+src/** linguist-detectable
+docs/*.html linguist-vendored
+* text=auto eol=lf
+*.yml linguist-detectable=false
+src/**/*.tsx linguist-detectable
+vendor/* linguist-vendored
+Cargo.lock linguist-generated
+dist/* linguist-vendored
