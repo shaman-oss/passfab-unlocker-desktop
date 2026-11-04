@@ -1,0 +1,7 @@
+.env.local
+yarn-error.log*
+.next/
+coverage/
+*.log
+.DS_Store
+dist/
